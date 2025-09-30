@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rommel Avelino — Portfolio</title>
+  <meta name="description" content="Portfolio of a Computer Engineering graduate: embedded systems, IoT, firmware, and web apps." />
+  <meta name="theme-color" content="#0f172a" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+    <!-- JS -->
+  <script  type="module" src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home"><span class="logo"></span> <span>Rommel Avelino</span></a>
+      <a class="cta" href="#contact">Hire Me</a>
+    </div>
+  </header>
+
+  <main id="home" class="container hero">
+    <div class="hero-grid">
+      <div>
+        <span class="badge">👋 Hello! I'm a Computer Engineer</span>
+       <h1 class="title">I design and code web solutions that blend performance with great UX.</h1>
+<p class="subtitle">
+  Fresh graduate passionate about full-stack development: clean front-end design, robust back-end systems, and cloud integration. I love bringing ideas to life on the web.
+</p>
+
+        <div class="hero-actions">
+          <a class="cta" href="projects.html">See Projects</a>
+          <a class="ghost" href="/files/Avelino.pdf" download>Download CV</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <img src="images/projects.svg" alt="Project collage placeholder" width="70" height="50" />
+
+        <div class="stats">
+  <div class="stat">
+    <div class="num" id="stat-websites">3</div>
+    <div class="lbl">Websites</div>
+  </div>
+  <div class="stat">
+    <div class="num">2</div>
+    <div class="lbl">System Application</div>
+  </div>
+  <div class="stat">
+    <div class="num">2</div>
+    <div class="lbl">Device</div>
+  </div>
+  <div class="stat">
+    <div class="num">7+</div>
+    <div class="lbl">Happy Clients</div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </main>
+
+  <section id="skills">
+    <div class="container">
+      <div class="section-hd">
+        <h2>Skills</h2>
+       <p>
+  Web Development <br>
+  Embedded Systems <br>
+  Documentation Tools
+</p>
+
+
+      </div>
+      <div class="chips">
+  <!-- Programming Languages -->
+  <span class="chip">Python</span>
+  <span class="chip">C/C++</span>
+  <span class="chip">Java</span>
+  <span class="chip">JavaScript</span>
+  <span class="chip">PHP</span>
+  <span class="chip">HTML/CSS</span>
+
+  <!-- Database Management -->
+  <span class="chip">Firebase</span>
+  <span class="chip">MySQL</span>
+  <span class="chip">XAMPP</span>
+
+  <!-- Web Development -->
+  <span class="chip">React</span>
+  <span class="chip">Node.js</span>
+
+  <!-- Mobile App Development -->
+  <span class="chip">Flutter</span>
+  <span class="chip">Android Studio</span>
+
+  <!-- Operating System -->
+  <span class="chip">Windows</span>
+
+  <!-- Microsoft Tools -->
+  <span class="chip">MS Word</span>
+  <span class="chip">PowerPoint</span>
+  <span class="chip">Excel</span>
+
+  <!-- Embedded Systems -->
+  <span class="chip">Embedded Systems Development</span>
+  <span class="chip">Arduino</span>
+  <span class="chip">ESP32</span>
+  <span class="chip">STM32</span>
+  <span class="chip">Raspberry Pi</span>
+  <span class="chip">Microcontroller Programming</span>
+
+  <!-- Circuit Design -->
+  <span class="chip">Circuit Design & Analysis</span>
+</div>
+    </div>
+  </section>
+
+ 
+  <section id="experience">
+    <div class="container">
+      <div class="section-hd">
+        <h2>Experience</h2>
+        <p>What I’ve done</p>
+      </div>
+      <div class="timeline">
+        <div class="tl-item">
+          <h4>IT Staff — <span style="opacity:.8">Lubao National High School</span></h4>
+          <p>February 2025 - March 2025 | On The Job Training </p>
+        </div>
+
+        <div class="tl-item">
+          <h4>Capstone Lead — <span style="opacity:.8">University</span></h4>
+          <p>2025 · Led a team of 4: designed PCB in KiCad and integrated Firebase.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="section-hd">
+        <h2>Contact</h2>
+        <p>Let’s work together</p>
+      </div>
+      <form id="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Send me a Message..." required></textarea>
+        <button class="cta" type="submit">Send Message</button>
+       
+      </form>
+    </div>
+  </section>
+
+  <footer>
+<div class="container footer-grid">
+  <p class="contact">
+    <i class="fas fa-phone"></i> +63 928 942 8257
+  </p>
+
+  <p class="social-links">
+    <a href="https://www.facebook.com/rommel.b.avelino?mibextid=ZbWKwL" target="_blank">
+      <i class="fab fa-facebook"></i> Rommel Avelino
+    </a><br>
+    <a href="https://www.instagram.com/avln_rmml?igsh=NjhvOHBza2Q2ZGZh" target="_blank">
+      <i class="fab fa-instagram"></i> avln_rmml
+    </a><br>
+    <a href="t.me/Ekubisa_123" target="_blank">
+      <i class="fab fa-telegram"></i> Ekubisa_123
+    </a>
+  </p>
+</div>
+</footer>
+
+
+
+</body>
+</html>
