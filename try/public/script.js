@@ -1,6 +1,6 @@
 //firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyDZhnrgmZVh4l_gOz9XFCdiDMcm0mLN-0o",
+  apiKey: "OWN API KEY",
   authDomain: "rommel-b1e75.firebaseapp.com",
   projectId: "rommel-b1e75",
   storageBucket: "rommel-b1e75.appspot.com",
@@ -107,3 +107,4 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
